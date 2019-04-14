@@ -1,0 +1,68 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+body {
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+#wrap {
+	width: 1000px;
+	height: 800px;
+	background-color: #fff;
+	margin: auto;
+	position: relative;
+}
+header {
+	background: #fff url('images/lotto_logo.jpg') no-repeat center top;
+	height:300px;
+	width: 1000px;
+	margin-bottom: 0px;
+}
+.top {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+.bottom {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+.balls {
+	display: inline-block;
+	width: auto;
+	min-width:60px;
+	height: 60px;
+	border-radius: 50%;
+	padding: 25px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 60px;
+	margin: 20px 10px;
+	color: #fff;
+}
+.playButton {
+	margin: 15px auto;
+	font-size: 18px; 
+	font-weight:bolder; 
+	padding: 8px;
+	border: 2px black solid;
+	border-radius: 7px;
+}
+footer {
+	width: 1000px;
+	height: 65px;
+	background: #fff url('images/footer.jpg') repeat-x left bottom;
+	margin: 0px auto;
+}
+footer p {
+	margin-left: 20px;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}

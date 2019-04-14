@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Gallery (onmouseOver) with JavaScript</title>
+    <script src="js/script.js"></script>
+
+    <style type="text/css">
+      body {
+        background: #222;
+        color: #eee;
+        margin-top: 20px;
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      }
+      a {
+        color: #fff;
+      }
+      a:hover {
+        color: yellow;
+        text-decoration: underline;
+      }
+      .thumbnails img {
+        height: 80px;
+        border: 4px solid #555;
+        padding: 1px;
+        margin: 0 10px 10px 0;
+      }
+
+      .thumbnails img:hover {
+        border: 4px solid #00ccff;
+        cursor: pointer;
+      }
+
+      .preview img {
+        border: 4px solid #444;
+        padding: 1px;
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery" align="center">
+      <h2>Photo Gallery (onmouseOver) with JavaScript</h2>
+
+      <br />
+
+      <div class="thumbnails">
+        <img
+          src="images/img1.jpg"
+          onmouseover="displayphoto(1)"
+          alt="photo 1"
+        />
+        <img
+          src="images/img2.jpg"
+          onmouseover="displayphoto(2)"
+          alt="photo 2"
+        />
+        <img
+          src="images/img4.jpg"
+          onmouseover="displayphoto(4)"
+          alt="photo 4"
+        />
+        <img
+          src="images/img5.jpg"
+          onmouseover="displayphoto(5)"
+          alt="photo 5"
+        />
+        <img
+          src="images/img3.jpg"
+          onmouseover="displayphoto(3)"
+          alt="photo 3"
+        />
+      </div>
+      <br />
+
+      <div class="preview" align="center">
+        <img id="preview" src="images/img1.jpg" alt="gallery" />
+      </div>
+    </div>
+  </body>
+</html>
