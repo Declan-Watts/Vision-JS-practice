@@ -1,34 +1,41 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
-    background-image: linear-gradient(to right, #5eb6f5, #5fa8ff, #7d94ff, #a779fd, #d252e5);
+  margin: 0;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    #5eb6f5,
+    #5fa8ff,
+    #7d94ff,
+    #a779fd,
+    #d252e5
+  );
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #e5d352;
+  font-family: 'Montserrat', sans-serif;
+  color: #e5d352;
 }
 
 /* Links */
 
 .js-links {
-    width: 70%;
-    position: relative;
-    text-align: center;
-    margin: auto;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
 .card {
-    padding: 30px;
-    width: 30%;
-    margin: 20px auto;
-    border: 4px solid black;
+  padding: 30px;
+  width: 30%;
+  margin: 20px auto;
+  border: 4px solid black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card:hover {
-    background-color: #5eb6f5;
+  background-color: #5eb6f5;
 }
