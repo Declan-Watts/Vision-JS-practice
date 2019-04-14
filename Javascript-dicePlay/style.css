@@ -1,0 +1,76 @@
+body{
+	background:url(img/body-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+#header{
+	height:100px;
+	width:auto;
+	background-color:#0086C9;
+	
+}
+
+#header-centered{
+	width:980px;
+	height:100px;
+	margin:auto;
+	background-color:#2893c9;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75);}
+#wrapper {
+	width:980px;
+	height:500px;
+	margin:auto;
+	background-color:white;
+	margin-top:5px;
+	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 5px 11px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 11px 0px rgba(50, 50, 50, 0.75);
+}
+#dice-numbers {
+	float:left;
+	width:980px;
+	height:auto;
+	padding-top:105px;
+	text-align: center;
+        margin-bottom: 60px;
+}
+
+#dice-numbers img {
+	height:180px;
+	width:180px;
+	border: 1px solid white;
+	margin-right:12px;
+	margin-left:12px;
+	padding:0px;
+	float:left;
+}
+
+
+
+#play {
+	display: block;
+        text-decoration:none;
+	border:none;
+	width:259px;
+	height:111px;
+	background: none;
+	background-image:url('img/play.png');
+	margin-top:50px;
+	cursor:pointer;
+	opacity:1;
+	transition: opacity 0.5s ease
+}
+
+#play:hover{
+	opacity:0.6;
+}
+
+
+
+
